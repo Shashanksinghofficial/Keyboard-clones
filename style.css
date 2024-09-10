@@ -1,0 +1,877 @@
+   *{
+     height:100%;
+     width:100%;
+    
+   } 
+div{
+  height:290px;
+  width:1020px;
+  border:10px ridge black;
+  position:relative;
+  top:30%;
+  border-radius: 30px;
+}
+  
+  #light{
+    height:30px;
+    width:140px;
+    
+    opacity:0.5px;
+    position: absolute ;
+    left:850px;
+    border-radius:0px;
+    box-shadow:none;
+    border:none;
+     top:15px;
+
+  }
+ 
+button{
+ height:30px;
+ width:40px;
+ border-radius:10px;
+ 
+
+
+background-color: #e0e0e0;
+box-shadow:20px 20px 60px blur #0000C2,inset -20px-20px-60px blur #FFFFE8;
+ }
+ button:hover{
+background-color: #E0E0E0;
+box-shadow:1px 1px 1px #5a5a5a,-5px -5px 5px #ffffff; #ffffff;
+ }
+ 
+  #esc{
+    position:absolute;
+    top:15px;
+    left:10px;
+  }
+#f1{
+position: absolute;
+top:15px;
+left:100px;
+}
+#f2{
+position:absolute;
+top:15px;
+left:145px;
+}
+#f3{
+position: absolute;
+top:15px;
+left:190px;
+}
+#f4 {
+position: absolute;
+top: 15px;
+left: 235px;
+}
+#f5 {
+position: absolute;
+top: 15px;
+left: 300px;
+}
+#f6 {
+position: absolute;
+top: 15px;
+left: 345px;
+}
+#f7 {
+position: absolute;
+top: 15px;
+left: 390px;
+ }
+      
+#f8 {
+position: absolute;
+top: 15px;
+left: 435px;
+}
+      
+#f9 {
+ position: absolute;
+ top: 15px;
+ left: 505px;
+ }
+      
+#f10 {
+ position: absolute;
+ top: 15px;
+ left: 550px;
+}
+      
+#f11 {
+ position: absolute;
+ top: 15px;
+ left: 595px;
+ }
+ #f12 {
+  position: absolute;
+  top: 15px;
+  left: 640px;
+ }
+ #zero{
+  height:40px;
+  width:40px;
+  position:absolute;
+  top:55px;
+  left:10px;
+   
+ }
+ #one {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 55px;
+  left: 55px;
+ 
+ }
+ #two {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 55px;
+  left: 100px;
+ }
+ #three{
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 55px;
+  left: 145px;
+ }
+ #four {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 55px;
+  left: 190px;
+ }
+ #five {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 55px;
+  left: 235px;
+ }
+ #six{
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 55px;
+  left: 280px;
+  }
+ #seven {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 55px;
+  left: 325px;
+ }
+ #eight {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 55px;
+  left: 370px;
+ }
+ #nine {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 55px;
+  left: 415px;
+ }
+ #zero-2 {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 55px;
+  left:460px;
+ }
+ #dess {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 55px;
+  left: 505px;
+ }
+ #plus {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 55px;
+  left: 550px;
+ }
+ #backspace{
+   height:40px;
+   width:85px;
+   position: absolute;
+   top:55px;
+   left:595px;
+ }
+  #tab {
+    height: 40px;
+    width: 65px;
+    position:relative;
+    top:100px;
+    left:10px;
+  }
+ #q{
+   height:40px;
+   width:40px;
+   position:relative;
+   top:100px;
+   left:10px;
+ }
+  #w{
+    height: 40px;
+    width: 40px;
+    position:relative;
+    top:100px;
+    left:10px;
+   
+  }
+   #e {
+     height: 40px;
+     width: 40px;
+     position:relative;
+     top: 100px;
+     left:10px;
+    
+   }
+    #r {
+      height: 40px;
+      width: 40px;
+      position:relative;
+      top:100px;
+      left:10px;
+   
+    }
+     #t {
+       height: 40px;
+       width: 40px;
+       position: relative;
+       top:100px;
+       left:10px;
+    
+     }
+      #y{
+        height: 40px;
+        width: 40px;
+        position:relative;
+        top:100px;
+       left:10px;
+      }
+       #u {
+         height: 40px;
+         width: 40px;
+         position:relative;
+         top:100px;
+         left:10px;
+       
+       }
+        #i {
+          height: 40px;
+          width: 40px;
+          position:relative;
+          top: 100px;
+          left:10px;
+        
+        }
+  #o {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 100px;
+    left:10px;
+  
+  }
+ #p {
+   height: 40px;
+   width: 40px;
+   position: relative;
+   top:100px;
+   left:10px;
+ 
+ }
+  #big-bracket-open {
+    height:40px;
+    width:40px;
+    position:relative;
+    top:107px;
+    left:10px;
+   
+  }
+ #big-bracket-close{
+   height:40px;
+   width:45px;
+   position:relative;
+   top:107px;
+   left:10px;
+  
+ }
+ #enter-one{
+   height:86px;
+   width:60px;
+   position: absolute;
+   top:107px;
+   left:620px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 21% 100%, 20% 46%, 0 37%);
+ 
+ }
+   #caps-lock {
+    height: 40px;
+    width: 85px;
+    position:relative;
+    top:107px;
+    left:10px;
+  }
+ #a{
+   height:40px;
+   width:40px;
+   top:97px;
+   position:relative;
+   left:10px;
+ }
+  #s{
+    height: 40px;
+    width: 40px;
+    position:relative;
+    top:97px;
+    left:10px;
+   
+  }
+   #d {
+     height: 40px;
+     width: 40px;
+     position:relative;
+     top: 97px;
+     left:10px;
+    
+   }
+    #f {
+      height: 40px;
+      width: 40px;
+      position:relative;
+      top: 97px;
+      left:10px;
+   
+    }
+     #g {
+       height: 40px;
+       width: 40px;
+       position: relative;
+       top: 97px;
+       left:10px;
+    
+     }
+      #h{
+        height: 40px;
+        width: 40px;
+        position:relative;
+        top:97px;
+       left:10px;
+      }
+       #j{
+         height: 40px;
+         width: 40px;
+         position:relative;
+         top:97px;
+         left:10px;
+       
+       }
+        #k {
+          height: 40px;
+          width: 40px;
+          position:relative;
+          top: 97px;
+          left:10px;
+        
+        }
+  #l{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 97px;
+    left:10px;
+  
+  }
+ #semi-colon {
+   height: 40px;
+   width: 40px;
+   position: relative;
+   top: 107px;
+   left:10px;
+ 
+ }
+  #quotes{
+    height:40px;
+    width:40px;
+    position:relative;
+    top: 107px;
+    left:10px;
+   
+  }
+
+ #backward-slash{
+   height:40px;
+   width:40px;
+   position:relative;
+   top:107px;
+   left:10px;
+ }
+   #shift{
+    height: 40px;
+    width: 110px;
+    position:relative;
+    top:92px;
+    left:10px;
+  }
+ #z{
+   height:40px;
+   width:40px;
+   top:92px;
+   position:relative;
+   left:10px;
+ }
+  #x{
+    height: 40px;
+    width: 40px;
+    position:relative;
+    top:92px;
+    left:10px;
+   
+  }
+   #c{
+     height: 40px;
+     width: 40px;
+     position:relative;
+     top:92px ;
+     left:10px;
+    
+   }
+    #v{
+      height: 40px;
+      width: 40px;
+      position:relative;
+      top:92px;
+      left:10px;
+   
+    }
+     #b{
+       height: 40px;
+       width: 40px;
+       position: relative;
+       top:92px;
+       left:10px;
+    
+     }
+      #n{
+        height: 40px;
+        width: 40px;
+        position:relative;
+        top:92px;
+       left:10px;
+      }
+       #m{
+         height: 40px;
+         width: 40px;
+         position:relative;
+         top:92px;
+         left:10px;
+       
+       }
+        #comma{
+          height: 40px;
+          width: 40px;
+          position:relative;
+          top:100px;
+          left:10px;
+        
+        }
+  #dot{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top:100px;
+    left:10px;
+  
+  }
+ #forward-slash{
+   height: 40px;
+   width: 40px;
+   position: relative;
+   top: 100px;
+   left:10px;
+ 
+ }
+  #shift-2{
+    height:40px;
+    width:115px;
+    position:relative;
+    top: 92px;
+    left:10px;
+  }
+
+    #ctrl{
+    height: 40px;
+    width: 90px;
+    position:relative;
+    top:95px;
+    left:10px;
+  }
+ #window{
+   height:40px;
+   width:40px;
+   top:95px;
+   position:relative;
+   left:10px;
+ }
+  #alt{
+    height: 40px;
+    width: 40px;
+    position:relative;
+    top:95px;
+    left:10px;
+   
+  }
+   #space{
+     height:40px;
+     width:261px;
+     position:relative;
+     top:95px;
+     left:10px;
+    
+   }
+    #alt-2{
+      height: 40px;
+      width: 40px;
+      position:relative;
+      top:95px;
+      left:10px;
+   
+    }
+     #window-2{
+       height: 40px;
+       width: 40px;
+       position: relative;
+       top:95px;
+       left:10px;
+    
+     }
+      #book{
+        height: 40px;
+        width: 40px;
+        position:relative;
+        top:95px;
+       left:10px;
+      }
+       #ctrl-2{
+         height: 40px;
+         width: 90px;
+         position:relative;
+         top:95px;
+         left:10px;
+       
+       }
+#prt{
+position: absolute;
+top:15px;
+left:690px;
+font-size: 10px;
+}
+#scroll{
+position:absolute;
+top:15px;
+left:735px;
+font-size: 10px;
+}
+#pause{
+position: absolute;
+top:15px;
+left:780px;
+font-size: 10px;
+}
+    #insert{
+      height: 40px;
+      width: 40px;
+      position:absolute;
+      top:55px;
+      left:690px;
+      font-size: 10px;
+   
+    }
+     #home{
+       height: 40px;
+       width: 40px;
+       position: absolute;
+       top:55px;
+       left:735px;
+       font-size: 10px;
+    
+     }
+      #page-up{
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        top:55px;
+       left:780px;
+       font-size: 10px;
+      }
+       #delete{
+         height: 40px;
+         width: 40px;
+         position: absolute;
+         top:100px;
+         left:690px;
+         font-size: 10px;
+       
+       }
+        #end{
+          height: 40px;
+          width: 40px;
+          position: absolute;
+          top:100px;
+          left:735px;
+          font-size: 10px;
+        
+        }
+  #page-down{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top:100px;
+    left:780px;
+    font-size:10px;
+  
+  }
+  
+  
+  
+  #arrow-left{
+   height: 40px;
+   width: 40px;
+   position: absolute;
+   top:239px;
+   left:690px;
+  font-size: 10px;
+       
+ }
+  #arrow-up{
+  height: 40px;
+ width: 40px;
+ position: absolute;
+  top:191px;
+  left:735px;
+  font-size: 10px;
+        
+        }
+  #arrow-down{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top:239px;
+    left:735px;
+    font-size:10px;
+  
+  }
+    #arrow-right{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top:239px;
+    left:780px;
+    font-size:10px;
+  
+  }
+    
+  #num{
+   height: 40px;
+   width: 40px;
+   position: absolute;
+   top:55px;
+   left:830px;
+  font-size: 10px;
+       
+ }
+  #slash{
+  height: 40px;
+ width: 40px;
+ position: absolute;
+  top:55px;
+  left:875px;
+  font-size: 10px;
+        
+        }
+  #multiply{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top:55px;
+    left:920px;
+    font-size:10px;
+  
+  }
+    #divide{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top:55px;
+    left:965px;
+    font-size:10px;
+  
+  }
+    #num-seven{
+   height: 40px;
+   width: 40px;
+   position: absolute;
+   top:100px;
+   left:830px;
+  font-size: 10px;
+       
+ }
+  #num-eight{
+  height: 40px;
+ width: 40px;
+ position: absolute;
+  top:100px;
+  left:875px;
+  font-size: 10px;
+        
+        }
+  #num-nine{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top:100px;
+    left:920px;
+    font-size:10px;
+  
+  }
+    #num-add{
+    height: 85px;
+    width: 40px;
+    position: absolute;
+    top:100px;
+    left:965px;
+    font-size:10px;
+  
+  }
+    #num-four{
+   height: 40px;
+   width: 40px;
+   position: absolute;
+   top:145px;
+   left:830px;
+  font-size: 10px;
+       
+ }
+  #num-five{
+  height: 40px;
+ width: 40px;
+ position: absolute;
+  top:145px;
+  left:875px;
+  font-size: 10px;
+        
+        }
+  #num-six{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top:145px;
+    left:920px;
+    font-size:10px;
+  
+  }
+      #num-one{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top:190px;
+    left:830px;
+    font-size:10px;
+  
+  }
+    #num-two{
+   height: 40px;
+   width: 40px;
+   position: absolute;
+   top:190px;
+   left:875px;
+  font-size: 10px;
+       
+ }
+  #num-three{
+  height: 40px;
+ width: 40px;
+ position: absolute;
+  top:190px;
+  left:920px;
+  font-size: 10px;
+        
+        }
+  #num-enter{
+    height:85px;
+    width: 40px;
+    position: absolute;
+    top:190px;
+    left:965px;
+    font-size:10px;
+  
+  }
+  
+      #num-zero{
+    height: 40px;
+    width: 85px;
+    position: absolute;
+    top:235px;
+    left:830px;
+    font-size:10px;
+  
+  }
+    #num-dot{
+   height: 40px;
+   width: 40px;
+   position: absolute;
+   top:235px;
+   left:920px;
+  font-size: 10px;
+       
+ }
+ #num-light{
+   height:10px;
+   width:20px;
+   background-color:red;
+   position: absolute ;
+   top:0px;
+   left:0px;
+   font-size:10px;
+   
+ }
+ #caps-light{
+  height:10px;
+   width:20px;
+   background-color:red; 
+   position: absolute ;
+   top:0px;
+   left:60px;
+   font-size:10px;
+   border-radius: 0px;
+  
+ }
+ #scroll-light{
+   height:10px;
+   width:20px;
+   background-color:red;
+   position: absolute;
+   top:0px;
+   left:120px;
+   font-size: 10px;
+   font-family:monospace;
+   letter-spacing:0px;
+   text-indent: 0px;
+   
+  
+ }
